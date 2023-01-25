@@ -7,10 +7,13 @@ body{
   background-color: #F3E9E8;
 }
 
-.figure img{
+.figure {
+  max-width: 100%;
+  display: flex;
+}
+
+.figure img {
   border-radius: 1em 0em 0em 1em;
-  height: 100%;
-  width: 100%;
 }
 
 .main {
