@@ -9,8 +9,8 @@ body{
 
 .figure img{
   border-radius: 1em 0em 0em 1em;
-  height: 500px;
-  width: 375px;
+  height: 100%;
+  width: 100%;
 }
 
 .main {
@@ -18,7 +18,7 @@ body{
   margin: 100px auto;
   display: flex;
   height: 500px;
-  width: 700px;
+  width: 650px;
   align-items: center;
   justify-content: center;
   background: white;
