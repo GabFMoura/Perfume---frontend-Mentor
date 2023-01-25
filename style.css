@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body{
+  background-color: #F3E9E8;
+}
+
+.figure img{
+  border-radius: 1em 0em 0em 1em;
+  height: 500px;
+  width: 375px;
+}
+
+.main {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 100px auto;
+  display: flex;
+  height: 500px;
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 1em 1em 1em 1em;
+}
+
+.test-drive {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  font-family: 'Lora', serif;
+  font-size: 2em;
+}
+
+.info h3, h2, p, h1, sup, button{
+  background: white;
+  margin-left: 30px;
+  max-width: 250px;
+  margin-bottom: 30px;
+}
+
+.info p {
+  font-size: 1.1em;
+  font-size: larger;
+}
+
+.tipo {
+  margin-top: 30px;
+  font-size: 1em;
+}
+
+.preco {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.preco h1 {
+  font-size: 1.5em;
+  font-family: 'Lora', serif;
+  color: #246B46;
+  width: 50px;
+}
+
+.preco sup {
+  align-self: start;
+  text-decoration: line-through;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+  background: #246B46;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+  border-radius: .5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #295246;
+}
+
+button img {
+  margin-right: 10px;
+}
